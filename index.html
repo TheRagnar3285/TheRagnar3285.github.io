@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <label for="ahorrado">Dinero Ahorrado: </label>
+        <input type="number" id="ahorrado" placeholder="Cantidad ahorrada">
+        <br>
+        <label for="meta">Meta de Ahorro: </label>
+        <input type="number" id="meta" placeholder="Meta de ahorro">
+        <br>
+        <button onclick="actualizarProgreso()">Actualizar Progreso</button>
+        <div id="barra-contenedor">
+            <div id="barra-progreso"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <div id="felicitacion" class="felicitacion">
+        ¡Felicidades! Vamos al Campamentooooo.
+    </div>
+</body>
+</html>
